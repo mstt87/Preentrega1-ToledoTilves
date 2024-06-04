@@ -5,14 +5,12 @@ const Main = () => {
         { id: 1, name: 'Capitan America', imageUrl: '/public/funko-capitan.jpg', price: 25.99 },
         { id: 2, name: 'Iron Man', imageUrl: '/public/funko-iman.jpg', price: 20 },
         { id: 3, name: 'Mickey', imageUrl: '/public/funko-mickey.jpg', price: 49.50 },
-        { id: 3, name: 'Spider Man', imageUrl: '/public/funko-spiderman.jpg', price: 30 },
+        { id: 4, name: 'Spider Man', imageUrl: '/public/funko-spiderman.jpg', price: 30 },
     ];
-
- 
-
 
     return (
         <div className="container mx-auto py-8">
+            <img src="/public/banner.png" alt="Banner" className="w-full  mb-8 rounded-lg shadow-md" /> {/* Banner */}
             <h1 className="text-3xl font-bold mb-8 text-center">FUNKOS</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-center">
                 {products.map(product => (

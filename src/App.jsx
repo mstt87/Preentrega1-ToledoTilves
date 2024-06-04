@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <ItemListContainer greeting="Bienvenido a Nuestra FunKo Tienda" />
+      <ItemListContainer greeting="Bienvenidos a Nuestra FunKo Tienda" />
       <Main />
       <Footer />        </div>
   );

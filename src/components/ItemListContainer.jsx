@@ -4,7 +4,6 @@ const ItemListContainer = ({ greeting }) => {
     const [showGreeting, setShowGreeting] = useState(false);
 
     useEffect(() => {
-        
         const timeout = setTimeout(() => {
             setShowGreeting(true);
         }, 500);
@@ -14,9 +13,10 @@ const ItemListContainer = ({ greeting }) => {
 
     return (
         <div className="text-center mt-8">
-            <h2 className={`text-2xl font-bold ${showGreeting ? 'fade-in' : ''}`}>{greeting}</h2>
+            <h2 className={`text-2xl font-bold ${showGreeting ? 'fade-in' : ''} bungee-spice-regular`}>{greeting}</h2>
         </div>
     );
 };
 
 export default ItemListContainer;
+
