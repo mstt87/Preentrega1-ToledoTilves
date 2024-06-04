@@ -4,7 +4,7 @@ const ItemListContainer = ({ greeting }) => {
     const [showGreeting, setShowGreeting] = useState(false);
 
     useEffect(() => {
-        // Simulación de una pequeña demora para mostrar el efecto de transición
+        
         const timeout = setTimeout(() => {
             setShowGreeting(true);
         }, 500);
